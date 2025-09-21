@@ -9,6 +9,8 @@ Elementos como:
 
 ## A Estruturação
 A estruturação do projeto é a seguinte:
+
+```
 htm-css-test/  
 ├── .gitignore  
 ├── index.html  
@@ -17,6 +19,7 @@ htm-css-test/
 ├── script.js  
 ├── style.css  
 └── TODO.md  
+```
 
 ## Como acessar
 Você pode acessar o site [aqui](https://userfortest01.github.io/html-css-test/) ou em https://userfortest01.github.io/html-css-test/
