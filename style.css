@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+body{
+    background-color: #ebebeb;
+}
+
 header {
-    background-color: #696969;
+    background-color: #bbbbbb;
     height: 3em;
     padding: 15px;
 }
@@ -27,7 +31,7 @@ header > nav > a {
 
 main {
     background-color: #a6a6a6;
-    margin: 15px 300px;
+    margin: 15px 215px;
     padding: 25px;
 }
 
@@ -42,6 +46,10 @@ main > div.button > button#click-me {
     padding: 12px;
 }
 
+main > p {
+    padding: 15px;
+}
+
 footer {
     background-color: #626262aa;
     text-align: center;
@@ -49,12 +57,22 @@ footer {
     padding: 15px;
 }
 
-@media (max-width: 590px) {
+/* Media Querys para Responsividade */
+/* Media Query Médio */
+@media (max-width: 750px) {
     header > nav > a {
         padding: 5px;
     }
+
+    main {
+        background-color: #a6a6a6;
+        margin: 15px 125px;
+        padding: 25px;
+    }
+
 }
 
+/* Media Query Pequeno */
 @media (max-width: 525px) {
     header > h1 {
         font-size: 1.5em;
@@ -64,4 +82,11 @@ footer {
     header > nav > a {
         padding: 3px;
     }
+
+    main {
+        background-color: #a6a6a6;
+        margin: 15px 25px;
+        padding: 25px;
+    }
+
 }
