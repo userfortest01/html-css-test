@@ -1,5 +1,5 @@
 function efeitoBotao() {
-    const botao = document.getElementById("button#click-me")
+    const botao = document.querySelector("button#click-me")
 
     botao.addEventListener('click', () => {
         alert("Botão clicado!")
