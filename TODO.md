@@ -1,3 +1,0 @@
-- [ ] Adicionar mais texto
-- [ ] Melhorar o Design
-- [ ] Adicionar mais seções
